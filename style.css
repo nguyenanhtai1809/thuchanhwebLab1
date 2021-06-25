@@ -1,6 +1,5 @@
 .container {
-    width: 1070px;
-    margin: auto;
+    width: 1500px;  
     height: 1000px;
     background-color: rgb(255, 255, 255);
 }
@@ -10,36 +9,39 @@
     margin-top: 5px;
     margin-left: 5px;
 }
-
+.right a {
+    text-decoration: none;
+    margin-left: 40px;
+    height: 32px;
+    line-height: 32px;
+    color: #4f4f4f;
+}
 .tai {
     float: right;
-    margin-right: -40%;
+    margin-right: -35%;
     margin-top: 12px;
 }
 
 .tai button {
     height: 32px;
     line-height: 30px;
-    padding: 0 10px;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
     font-size: 14px;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .tai1 {
     float: right;
     margin-right: -70%;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 .tai1 button {
     height: 32px;
     line-height: 30px;
-    padding: 0 10px;
-    border: 1px solid #e5e5e5;
-    border-radius: 3px;
+    border: 1px solid #e5e5e5; 
     font-size: 14px;
     display: inline-block;
    
@@ -47,30 +49,22 @@
 
 .bu {
     float: left;
-    margin-top: 17px;
-    margin-left: 318px;
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 305px;
+    border-radius: 40px;
+    line-height: 30px;
 }
 
 .bu1 {
-    height: 32px;
-    line-height: 32px;
-    border-radius: 16px;
+    height: 35px;
+    border-radius:30px;
     border: 1px solid #e5e5e5;
-    padding: 0 30px 0 14px;
-    margin: 0;
-    padding-right: 12px;
+    padding-right: 20px;
 }
 
-.right a {
-    text-decoration: none;
-    margin-left: 68px;
-    height: 32px;
-    line-height: 32px;
-    color: #4f4f4f;
-}
+
+.bg-primary {
+    background-color:#e5e5e5!important}
 
 .container hr {
     width: 150%;
@@ -84,7 +78,7 @@
 
 .menu ul li {
     float: left;
-    padding-right: 31px;
+    padding-right: 17px;
     font-size: 19px;
     list-style-type: none;
     color: #4f4f4f;
